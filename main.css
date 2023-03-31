@@ -1,0 +1,76 @@
+.body{
+    font-family: Roboto, sans-serif;
+}
+
+header img{
+    height: 180px;
+}
+
+.navbar{
+    background-color:#48B5B9;;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #F8E72C;
+    color: #48B5B9;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-pets .nav-link.active:hover{
+color: #fff;
+}
+
+.navbar-toggler{
+    background-color:#d2efef;
+}
+
+.section-title{
+    font-family: 'Comic Neue', cursive;
+}
+
+.text-colored{
+    color: #48B5B9;
+}
+
+.text-colored-branco{
+    color: #fff;
+}
+
+#dicas{
+    background-color: #48B5B9;;
+}
+
+#pets{
+    background-color: #F8E72C;
+}
+
+/*section{
+    padding-top: 75px;
+}*/
+
+.nav-pets .nav-link.active,
+#fale-conosco button{
+    background-color: #48B5B9;;
+    color: #fff;
+}
+
+.nav-pets .nav-link:hover{
+    color:#48B5B9;;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media(max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
